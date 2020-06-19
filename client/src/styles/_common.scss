@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --colorSecondary: #edeff6;
+  --grey: #aea7bd;
+  --blueDark: #141965;
+  --blue: #646cd6;
+  --black: #0f0e17;
+  --greyDark: #5a555c;
+  --red: #e4494c;
+  --yellow: #869e85;
+  // --shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  --shadow: 0 1px 10px rgba(0, 0, 0, 0.12);
+  --shadow2: 0 3px 6px rgba(0,0,0,0.16), 0 3px 20px rgba(0,0,0,0.23);
+  --shadow3: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+body {
+  background: var(--colorSecondary);
+  font-family: "Rubik", sans-serif;
+}
+
+html {
+  font-size: 16px;
+}
+
+.gap {
+  height: 1rem;
+  &.x2 {
+    height: 2rem;
+  }
+}
+
+.mt {
+  margin-top: 7px;
+}
+
+.hgap {
+  height: 1px;
+  width: 1rem;
+  display: inline-block;
+  &.x2 {
+    width: 2rem;
+  }
+}
+
+.flex {
+  display: flex;
+  &.jcsb {
+    justify-content: space-between;
+  }
+  &.jcc {
+    justify-content: center;
+  }
+  &.jcr {
+    justify-content: flex-end;
+  }
+  &.ci {
+    align-items: center;
+  }
+}
+
+.wrap {
+  width: 90%;
+  margin: auto;
+}
+
+.sub-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--black);
+
+  &.x2{
+    font-weight: 600;
+  }
+}
+
+.text {
+  &.red {
+    color: red;
+  }
+  &.small {
+    font-size: 12px;
+  }
+  &.center {
+    text-align: center;
+  }
+}
+
+.card {
+  border-radius: 4px;
+  box-shadow: var(--shadow);
+}
+
+.sub-text {
+  color: var(--greyDark);
+  font-size: 1rem;
+}
+
+.main-title {
+  color: var(--blueDark);
+  font-size: 2.5rem;
+  font-weight: 900;
+
+  &.secondary {
+    color: var(--greyDark);
+  }
+}
+
+.main-wrapper{
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.color-primary {
+  color: #1890ff;
+
+  &.dark {
+    color: #0b457c;
+  }
+}
+
+.color-secondary {
+  color: rgb(104, 143, 180);
+
+  &.dark {
+    color: #3c566e;
+  }
+}
+
+.elevation-1 {
+  box-shadow: var(--shadow);
+}
+.elevation-2 {
+  box-shadow: var(--shadow2);
+}
+.elevation-3 {
+  box-shadow: var(--shadow3);
+}
