@@ -1,6 +1,6 @@
 # stripe-integration-project
 
-This is a Express-React project which integrates Stripe for buyer giver platform. This onnly focuses on stripe integration with very basic implementaion of buyer giver platform.
+This is a Express-React project which integrates Stripe for buyer giver platform. This demo project only focuses on stripe integration with very basic implementaion of buyer giver platform.
 
 # Setup
 
